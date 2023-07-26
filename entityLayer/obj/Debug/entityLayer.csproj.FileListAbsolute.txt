@@ -1,0 +1,6 @@
+D:\VisualStudio projects\okul kayit bootstrap\entityLayer\bin\Debug\entityLayer.dll
+D:\VisualStudio projects\okul kayit bootstrap\entityLayer\bin\Debug\entityLayer.pdb
+D:\VisualStudio projects\okul kayit bootstrap\entityLayer\obj\Debug\entityLayer.csproj.AssemblyReference.cache
+D:\VisualStudio projects\okul kayit bootstrap\entityLayer\obj\Debug\entityLayer.csproj.CoreCompileInputs.cache
+D:\VisualStudio projects\okul kayit bootstrap\entityLayer\obj\Debug\entityLayer.dll
+D:\VisualStudio projects\okul kayit bootstrap\entityLayer\obj\Debug\entityLayer.pdb

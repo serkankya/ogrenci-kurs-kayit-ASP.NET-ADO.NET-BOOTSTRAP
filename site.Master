@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="site.master.cs" Inherits="okul_kayit_bootstrap.site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Öğrenci Kayıt Sistemi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery ve Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        /* Özel stil ayarları */
+        body {
+            background-color: #3d3d3d;
+            color: #ffffff;
+        }
+
+        .navbar {
+            background-color: #202020;
+        }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+
+        .navbar-brand:hover,
+        .navbar-nav .nav-link:hover {
+            color: #f5f5f5;
+        }
+
+        /* Diğer özelleştirmeler burada devam edebilir */
+    </style>
+</head>
+<body>
+    <form id="form2" runat="server">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="anaSayfa.aspx">e-ÖĞRENCİ KURS KAYIT SİSTEMİ</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="ogrenciListesi.aspx">Öğrenci Listesi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ogrenciEkle.aspx">Öğrenci Ekle</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="dersler.aspx">Dersler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="siniflar.aspx">Sınıflar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <!-- Ana içerik alanı -->
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+</body>
+</html>
